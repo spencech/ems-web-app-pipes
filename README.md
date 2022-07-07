@@ -1,6 +1,6 @@
 # EMS Web Application Components: Pipes
 
-The Pipes Angular.io module is authored for use within web applications developed by [Educational Media Solutions](https://educationalmediasolutions.com).
+The Pipes Angular.io module is authored for use within [web applications](https://github.com/spencech/ems-web-app-template) developed by [Educational Media Solutions](https://educationalmediasolutions.com).
 
 This component includes three frequently used pipes in our web applications.
 
@@ -9,8 +9,7 @@ This library was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Usage: Module Import
 
-This pipe sanitizes template strings
-Module Implementation
+** Module Implementation **
 
 	import { NgModule } from '@angular/core';
 	import { BrowserModule } from '@angular/platform-browser';
