@@ -1,0 +1,35 @@
+{
+  "name": "ems-web-app-pipes",
+  "version": "0.0.1",
+  "author": "Chris Spence (https://educationalmediasolutions.com)",
+  "description": "This angular.io module includes three pipes freuently used in our web applications.",
+  "peerDependencies": {
+    "@angular/common": "^13.2.0",
+    "@angular/core": "^13.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spencech/ems-web-app-pipes.git"
+  },
+  "scripts": {
+    "publish": "git add -A . && git commit -m 'prepublish npm package' && npm version patch && ng build pipes && cd dist && npm publish"
+  },
+  "keywords": [
+    "ems",
+    "educational media solutions",
+    "educational",
+    "media",
+    "solutions",
+    "web app",
+    "web application",
+    "pipes",
+    "pipe",
+    "safe",
+    "tokens",
+    "sanitizer",
+    "sanitize"
+  ]
+}
