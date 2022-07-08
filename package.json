@@ -1,6 +1,6 @@
 {
   "name": "ems-web-app-pipes",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Chris Spence (https://educationalmediasolutions.com)",
   "description": "This angular.io module includes three pipes freuently used in our web applications.",
   "peerDependencies": {
