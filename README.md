@@ -35,7 +35,7 @@ This library was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Usage: Safe
 
-The SafePipe sanitizes template strings using Angular.io's Dom Sanitizer.
+The SafePipe bypasses sanitization of trusted template strings using Angular.io's Dom Sanitizer. We'll typically use this to import HTML formatted content from a protected content management system.
 
 **Component Implementation**
 
